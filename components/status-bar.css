@@ -1,0 +1,26 @@
+.status-bar {
+  position:sticky;
+  top:0;
+  box-sizing: border-box;
+  background-color:#ffc72d;
+  padding:40px 15px 15px;
+  font-size:25px;
+  font-weight:600;
+  z-index:1;
+}
+.status-bar > div {display:flex;
+  justify-content:center;
+  align-items: center;
+}
+.status-bar_column {
+  width:33%;
+  margin-bottom:10px;
+}
+.status-bar_column:nth-child(2) span{
+  display:flex;
+  justify-content:center;
+}
+.status-bar_column:last-child {
+  display:flex;
+  justify-content:flex-end;
+}

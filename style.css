@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* components */
+@import "components/status-bar.css";
+@import "components/search.css";
+@import "components/user-component.css";
+@import "components/star.css";
+
+/* sreens */
+@import "screens/topadventures.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    width:500px;
+    height:auto;
+    padding:0;
+    margin:0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top-adventures {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  padding: 0 16px;
+}
+.top-adventures_column img {
+  display: block;
+  width: 100px;
+  height: 145px;
+}
+
+.library-screen {
+    padding:0 15px 100px;
+}

@@ -1,0 +1,13 @@
+.user-component_info-star {
+  display:block;
+  color:#ffc72d;
+  margin-bottom:20px;
+}
+.user-component_info-star i:last-child {
+  color:#c4c3c2;
+}
+
+.user-component_info-star_sm {
+  transform:scale(0.7);
+ 
+}
